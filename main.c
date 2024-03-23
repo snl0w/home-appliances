@@ -41,8 +41,8 @@ int main()
     printf("\nConsumo relativo de cada eletrodoméstico:\n");
     for (int i = 0; i < numEletrodomesticos; i++)
     {
-        float consumo_relativo = (eletrodomesticos[i].potencia * eletrodomesticos[i].tempoAtivo * tempoDias) / consumoTotal * 100;
-        printf("%s: %.2f%%\n", eletrodomesticos[i].nome, consumo_relativo);
+        float consumoRelativo = (eletrodomesticos[i].potencia * eletrodomesticos[i].tempoAtivo * tempoDias) / consumoTotal * 100;
+        printf("%s: %.2f%%\n", eletrodomesticos[i].nome, consumoRelativo);
     }
 
     return 0;
